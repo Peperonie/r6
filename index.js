@@ -113,4 +113,4 @@ bot.on("message", async message => {
 });
 
 
-bot.login(bot.config.token).catch(console.error());
+client.login(process.env.TOKEN);
